@@ -1,0 +1,41 @@
+﻿body {
+	background:  #646160;
+	font-family: Verdana;
+}
+
+p{
+	text-align:justify;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+.cuadro{
+   background: white;
+	 margin-left: 50px;
+	 margin-right: 50px;
+	 margin-top: 300px;
+	 height: 500px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.btn {
+	background: #89D5D7;
+	color:#fff;
+	font-size: 16px;
+	padding: 20px 20px;
+	display: inline-block;
+	margin: 10px 10px;
+	width: 800px;
+}
+
+.btn:hover {
+	opacity: .8;
+}
+
+.borde {
+	border-radius:20px;
+}

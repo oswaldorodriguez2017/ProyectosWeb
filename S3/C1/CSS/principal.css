@@ -1,0 +1,67 @@
+
+/*
+
+h1{
+     color: blue;
+     font-size: 20;
+     font-family: Verdana;
+  }
+
+
+
+*{
+
+   font-family: Verdana;
+
+}
+
+*/
+
+
+body{
+  font-family: Verdana;
+  margin: 0px;
+  /*
+  background: orange;
+  color: white;
+  text-align: justify;
+*/
+}
+
+header{
+
+   background: Cornflowerblue;
+   color: white;
+   margin: 0px  0px;
+   padding: 20px 20px;
+
+}
+
+header{
+  text-transform: uppercase;
+}
+
+/*USO DE CLASS*/
+
+.portada{
+    text-align: center;
+    background: Gainsboro;
+
+}
+
+.Titulo{
+   margin: auto;
+   text-align: center;
+   font-weight: bold;
+
+}
+
+
+/* USO DEL ID| */
+#main-footer{
+
+   text-align: center;
+   font-weight: bold;
+
+
+}

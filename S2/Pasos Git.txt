@@ -1,0 +1,70 @@
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase
+$ git config --global user.email oswaldorodriguez2017.27@gmail.com
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase
+$ git init
+Initialized empty Git repository in C:/daw/ContenidoClase/.git/
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git add -A
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git stat
+git: 'stat' is not a git command. See 'git --help'.
+
+The most similar commands are
+        status
+        stage
+        stash
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git stats
+git: 'stats' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git commit -m "primer commit"
+[master (root-commit) d30d343] primer commit
+ 1 file changed, 72 insertions(+)
+ create mode 100644 S2/C2/Tabla/index.html
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git remote add origin
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git remote add origin https://github.com/oswaldorodriguez2017/ProyectosWeb.git
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$ git push origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 588 bytes | 588.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/oswaldorodriguez2017/ProyectosWeb.git
+ * [new branch]      master -> master
+
+Alumno 2018@CCALab05-PC06 MINGW64 /c/daw/ContenidoClase (master)
+$
