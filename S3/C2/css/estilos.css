@@ -18,22 +18,23 @@ li{
   height: 550px;
 }
 
-
 /*  para las clases de valores absolutos */
 
 .a-1{
-  background: rgb(15,255,255)
+  background: rgb(15,255,255);
   width: 300px;
   height: 200px;
+  font-size: 2.8em;
+  /**font-size: 45px;**/
 
 }
-
 
 .a-2{
   background: #F7FFE5;
   margin: 10px;
   width: 30cm;
   height: 55cm;
+  font-size: 5em;
 }
 
 .a-3{
