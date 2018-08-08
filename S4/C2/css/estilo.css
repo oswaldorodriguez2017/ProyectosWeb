@@ -1,0 +1,36 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli|Noto+Serif|PT+Serif|Roboto+Mono|Titillium+Web');
+
+/* fuentes */
+
+.titulo h1{
+  font-family: "Roboto Mono', monospace" ;
+  font-weight: bold;
+}
+
+.titulo p{
+  font-family: "Muli', sans-serif";
+  font-weight: bold;
+}
+
+.NotoSerif {
+  font-family: "Noto Serif', serif" ;
+  font-weight: bold;
+}
+
+.PTSerif {
+  font-family: "Noto Serif', serif" ;
+  font-weight: bold;
+}
+
+.TitilliumWeb{
+  font-family: "Titillium Web', sans-seri" ;
+  font-weight: bold;
+}
+
+.
+
+/*  Noto Serif', serif */
+/* PT Serif', serif */
+/* Titillium Web', sans-seri */
