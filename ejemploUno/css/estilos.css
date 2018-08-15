@@ -1,0 +1,20 @@
+
+.articulo
+{
+  background-color: rgba(0,0,0,0.7);
+  width: 800px;
+	height: 800px;
+}
+
+/**  background-image: url('espacio.jpg'); **/
+
+.imagenUno
+{
+  background-image: url("Melbourne.jpg");
+  width: 400px;
+	height: 400px;
+  margin-top: 1%;
+	margin-left: 2%;
+	margin-right: 2%;
+  padding: 15% 5% 5% 15%;
+}

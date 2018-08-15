@@ -1,0 +1,53 @@
+5 faces de un sistema Web 
+
+ciclo de vida del producto
+
+1 - Analizar         - -----monetizacion propuesta economica
+                                                   streholders     
+2 - Investigacion    ------- Problemas --- Producto --- socios dueños --- Entorno  
+        wire frame ( MAQIETADO )
+
+3 - Desaroollo
+
+4 - Pruebas
+
+5 - Produccion
+
+
+40% Analisis
+
+30% Desarrollo
+
+20% pruebas 
+
+
+1) producto que tan inmportaten es el producto para la compañia
+
+2) como este producto se conecta con la marca del negocio
+
+3) como este producto se relaciona con otros productos de la empresa
+
+Que problema debera de resolver nuestros clientes
+
+definir el estilo la carecteristica
+
+si existe un competidor para este cliente
+
+landing-page ( pagina principal )
+3 objetivos base 
+
+1) Intentar atraer a los clientes ( Target )
+2) Mostrar o Guiar a los usuario de ujn nuevo producto 
+3) Capaz de poder hacer que los usuario compren o pre ordenen
+
+seo ( motor de optimizacion de busqueda )
+
+MOVIFIRST ( la adaptabilidad d enuestra palicacion a una pantalla de un dispositivo )
+
+Rsponsive Diseyner 
+
+
+google analiticts (java script ) uno de los primeras coasa que ve es que nuestra aplicacion esta adapatado a todos los dispositivos moviles
+
+
+xd adobe
