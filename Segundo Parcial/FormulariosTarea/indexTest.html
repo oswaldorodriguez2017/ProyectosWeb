@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Formularios HTML  </title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+  <form class="" action="index.html" method="post">
+
+        <fieldset>
+            <legend> Datos Generales </legend>
+
+            <label for="name"> Nombre </label>
+            <input type="text" name ="user_name" value ="" id="name"
+             placeholder="Nombre del usuario">
+
+             <label for="FecNac">  </label>
+             <input type="date" name ="FecNac" value ="" id="FecNac"
+              placeholder="Ingrese una fecha de nacimiento">
+
+       </fieldset>
+
+       <fieldset>
+
+           <legend> Test de Evaluacion </legend>
+
+             <fieldset>
+                <legend> Tratas de responder a todos tus correos electrónicos lo más pronto posible y no soportas una bandeja de entrada descuidada. </legend>
+
+                  <input type="radio" id ="IDP1RespUno"name="Prg1" value="">
+                  <label for="IDP1RespUno">SI</label>
+
+                  <input type="radio" id ="IDP1RespDos"name="Prg1" value="">
+                  <label for="IDP1RespDos">Intermedio</label>
+
+                  <input type="radio" id ="IDP1RespTres"name="Prg1" value="">
+                  <label for="IDP1RespTres">NO</label>
+
+             </fieldset>
+
+             <fieldset>
+                <legend> Es muy raro que hagas algo simplemente por pura curiosidad.. </legend>
+
+                  <input type="radio" id ="IDP2RespUno"name="Prg2" value="">
+                  <label for="IDP2RespUno">SI</label>
+
+                  <input type="radio" id ="IDP2RespDos"name="Prg2" value="">
+                  <label for="IDP2RespDos">Intermedio</label>
+
+                  <input type="radio" id ="IDP2RespTres"name="Prg2" value="">
+                  <label for="IDP2RespTres">NO</label>
+
+             </fieldset>
+
+             <fieldset>
+                <legend> Para ti es más importante ser organizado que ser capaz de adaptarte a las circunstancias. </legend>
+
+                  <input type="radio" id ="IDP3RespUno"name="Prg3" value="">
+                  <label for="IDP3RespUno">SI</label>
+
+                  <input type="radio" id ="IDP3RespDos"name="Prg3" value="">
+                  <label for="IDP3RespUno">Intermedio</label>
+
+                  <input type="radio" id ="IDP3RespTres"name="Prg3" value="">
+                  <label for="IDP3RespTres">NO</label>
+
+             </fieldset>
+
+             <fieldset>
+                <legend> Con frecuencia sientes que tienes que justificarte ante otras personas. </legend>
+
+                  <input type="radio" id ="IDP4RespUno"name="Prg4" value="">
+                  <label for="IDP4RespUno">SI</label>
+
+                  <input type="radio" id ="IDP4RespDos"name="Prg4" value="">
+                  <label for="IDP4RespDos">Intermedio</label>
+
+                  <input type="radio" id ="IDP4RespTres"name="Prg4" value="">
+                  <label for="IDP4RespTres">NO</label>
+
+             </fieldset>
+
+             <fieldset>
+                <legend> Tu casa y tu entorno de trabajo están muy ordenados. </legend>
+
+                  <input type="radio" id ="IDP5RespUno"name="Prg5" value="">
+                  <label for="IDP5RespUno">SI</label>
+
+                  <input type="radio" id ="IDP5RespDos"name="Prg5" value="">
+                  <label for="IDP5RespDos">Intermedio</label>
+
+                  <input type="radio" id ="IDP5RespTres"name="Prg5" value="">
+                  <label for="IDP5RespTres">NO</label>
+
+             </fieldset>
+
+
+              <fieldset>
+                 <legend> Tu estado de ánimo o humor puede cambiar muy rápidamente. </legend>
+
+                   <input type="radio" id ="IDP6RespUno"name="Prg6" value="">
+                   <label for="IDP6RespUno">SI</label>
+
+                   <input type="radio" id ="IDP6RespDos"name="Prg6" value="">
+                   <label for="IDP6RespDos">Intermedio</label>
+
+                   <input type="radio" id ="IDP6RespTres"name="Prg6" value="">
+                   <label for="IDP6RespTres">NO</label>
+
+              </fieldset>
+
+              <fieldset>
+                 <legend>  Tus planes de viaje generalmente están bien pensados. </legend>
+
+                   <input type="radio" id ="IDP7RespUno"name="Prg7" value="">
+                   <label for="IDP7RespUno">SI</label>
+
+                   <input type="radio" id ="IDP7RespDos"name="Prg7" value="">
+                   <label for="IDP7RespDos">Intermedio</label>
+
+                   <input type="radio" id ="IDP7RespTres"name="Prg7" value="">
+                   <label for="IDP7RespTres">NO</label>
+
+              </fieldset>
+
+
+       </fieldset>
+
+         <fieldset>
+            <legend> Elige las profeciones que mas te llamen la atencion </legend>
+            <input type="checkbox" id ="Bombero" name="Bombero" value="Bombero">
+            <label for="peliculas">Bombero</label>
+
+            <input type="checkbox" id="Policia" name="Policia" value="Policia">
+            <label for="Musica">Policia</label>
+
+            <input type="checkbox" id ="Mecanico"name="Mecanico" value="Mecanico">
+            <label for="leer">Mecanico</label>
+
+            <input type="checkbox" id ="Cantante"name="Cantante" value="Cantante">
+            <label for="leer">Cantante</label>
+
+         </fieldset>
+
+         <button type="submit" name="button">
+               Enviar Datos
+         </button>
+
+         <button type="reset" name="limpiar"> limpiar Campos</button>
+
+
+
+    </form>
+  </body>
+
+</html>

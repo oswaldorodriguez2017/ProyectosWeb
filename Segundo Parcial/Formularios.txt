@@ -1,0 +1,37 @@
+
+
+ Formuklarios HTML
+
+ action = es una peticion url ( de otro servidor o de nuestra propia aplicacion 
+ 
+method="post" = viaja a travez de poryocolo http son peticione http vijan codificadas pero no encriptadas 
+
+get = a deferencia del post la peticion get si se vizualiza para el isiario 
+ejemplo google font = @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+list
+
+delete
+
+quee   
+
+ <form class="" action="index.html" method="post">
+
+ </form>
+
+
+http protocolo hipertexto
+
+
+Tarea 
+
+Investigar sobre expreciones regulares 
+Que Es
+
+formulario de un test de personalidad 
+
+Bas econ nombre de quie se hace 
+
+Tes de personalidad en la web usando todfos los elemento vostos en clase
+
+

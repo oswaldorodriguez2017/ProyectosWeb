@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Formularios HTML  </title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+
+  <form class="" action="index.html" method="post">
+
+       <fieldset>
+
+           <legend> Ibnfo de usuario</legend>
+
+          <label for="name"></label>
+           <input type="text" name ="user_name" value ="" id="name"
+            placeholder="Nombre del usuario">
+
+            <label for="email"></label>
+            <input type="email" name="user_email" value="email@yahoo.com" id="email" required disabled>
+
+            <label for="password"></label>
+            <input type="password" name="iser_password" value="" id="password"
+             placeholder="password">
+
+        </fieldset>
+
+             <legend> Info Extra </legend>
+             <textarea name="Resumen" rows="8" cols="80">
+               <fieldset>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+             </textarea>
+
+            <button type="submit" name="button">
+                  Ingresar
+            </button>
+
+            <button type="reset" name="limpiar"></button>
+
+       </fieldset>
+
+           <legend> Info Extra </legend>
+           <select class="" name="profecion">
+
+             <optgroup label="Web">
+                <option value="diseniador"> DUseñador Grafico  </option>
+                <option value="PRG"> Programador .Net  </option>
+              </optgroup>
+
+            <optgroup label="Web">
+                <option value="Banquero"> Banquero </option>
+                <option value="Gerente Heneral"> Gerente Heneral </option>
+            </optgroup>
+
+          </select>
+
+       </fieldset>
+
+
+         <fieldset>
+            <legend> Sexo </legend>
+
+              <input type="radio" id ="masculino"name="sexo" value="masculino">
+              <label for="masculino">Masculino</label>
+
+              <input type="radio" id ="Femenino"name="sexo" value="femeninos">
+              <label for="femeninos">Femenino</label>
+
+
+
+         </fieldset>
+
+
+         <fieldset>
+            <legend> Hobbies </legend>
+            <input type="checkbox" id ="pelicula" name="hobbie" value="peliculas">
+            <label for="peliculas">Ver Peliculas</label>
+
+            <input type="checkbox" id="musica" name="hobbie" value="Musica">
+            <label for="Musica">Escuchar Musica</label>
+
+            <input type="checkbox" id ="leer"name="hobbie" value="leer">
+            <label for="leer">Leer Libros</label>
+         </fieldset>
+
+
+    </form>
+  </body>
+
+</html>
